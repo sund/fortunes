@@ -37,6 +37,24 @@ Including for archival purposes. Not up-to-date with recent episodes.
 from http://www.splitbrain.org/projects/fortunes
 Including for archival purposes.
 
+#### zippy
+
+wasn't in the repos so I am adding it here
+
+#### startrek
+
+wasn't in the repos so I am adding it here
+
+
+
+==================
+
+### Install a few more from repos
+
+```bash
+apt-get install fortunes-debian-hints fortunes-bofh-excuses fortunes-zippy
+```
+
 ==================
 
 To update the ```dat``` file

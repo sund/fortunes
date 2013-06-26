@@ -10,6 +10,7 @@ mailSubject="Your fortune for today: `date +'%A %B %e %Y'`"
 # send to multiple addresses seperated by commas
 # "address1@foo.com", "address2@foo.org"
 sendTO=( "" )
-fortunelist="firefly community"
+#my favorites
+fortunelist="firefly community fortunes debian-hints bofh-excuses zippy startrek"
 
 ################################
