@@ -1,0 +1,11 @@
+ .DS_Store
+ 
+ # ignore a lock file if you are testing
+fortunesbyemail.sh.lck
+fortunesbyemail.sh.lck
+
+# ignore the customHeader script
+customHeader.sh
+
+# ignore the conf file
+fortunesbyemail.conf

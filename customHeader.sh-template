@@ -1,0 +1,11 @@
+#!/bin/bash
+# v.1
+
+# pipe output to $tempNAME which is passed when called
+# example:
+# echo "what??" >> $tempNAME
+
+###
+## add your code below
+#
+
