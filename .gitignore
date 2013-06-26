@@ -1,7 +1,7 @@
- .DS_Store
+#mac crap
+.DS_Store
  
- # ignore a lock file if you are testing
-fortunesbyemail.sh.lck
+# ignore a lock file if you are testing
 fortunesbyemail.sh.lck
 
 # ignore the customHeader script
