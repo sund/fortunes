@@ -115,6 +115,7 @@ done
 }
 
 createfortune() {
+	cd $PDIR
 	for i in $fortunelist
 	do
 		echo "Here is your $i fortune:" >> $tempNAME
@@ -125,7 +126,7 @@ createfortune() {
 	echo "It is day `date +%j` in week `date +%U` of the year `date +%G`." >> $tempNAME
 	echo "End of your fortunes for today. Enjoy." >> $tempNAME
 	echo "Now go and have a good day." >> $tempNAME
-       echo "This is script version $myVer." >> $tempNAME
+	echo "This is script version $myVer." >> $tempNAME
     }
 
 ###############################
