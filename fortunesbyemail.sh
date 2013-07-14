@@ -127,7 +127,7 @@ createfortune() {
 	echo "End of your fortunes for today. Enjoy." >> $tempNAME
 	echo "Now go and have a good day." >> $tempNAME
 	echo "This is script version $myVer." >> $tempNAME
-	echo "fortune - http://sund.im/fortune" >> $tempNAME
+	echo "fortune - http://sund.la/fortune" >> $tempNAME
     }
 
 ###############################
