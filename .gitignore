@@ -1,5 +1,6 @@
 #mac crap
 .DS_Store
+.AppleDouble
  
 # ignore a lock file if you are testing
 fortunesbyemail.sh.lck
