@@ -17,7 +17,7 @@
 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/var/local/sbin:/sbin:/var/local/sbin:/sbin
 PDIR=${0%`basename $0`}
 LCK_FILE=$PDIR/`basename $0`.lck
-myVer=".6"
+myVer=".7"
 VTMP="/tmp"
 tempNAME="$VTMP/fortune4today.tmp"
 
@@ -127,6 +127,7 @@ createfortune() {
 	echo "End of your fortunes for today. Enjoy." >> $tempNAME
 	echo "Now go and have a good day." >> $tempNAME
 	echo "This is script version $myVer." >> $tempNAME
+	echo "fortune - http://sund.la/fortune" >> $tempNAME
     }
 
 ###############################
