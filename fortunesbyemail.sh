@@ -17,7 +17,7 @@
 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/var/local/sbin:/sbin:/var/local/sbin:/sbin
 PDIR=${0%`basename $0`}
 LCK_FILE=$PDIR/`basename $0`.lck
-myVer=".7"
+myVer=".8"
 VTMP="/tmp"
 tempNAME="$VTMP/fortune4today.tmp"
 
