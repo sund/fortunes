@@ -10,3 +10,6 @@ customHeader.sh
 
 # ignore the conf file
 fortunesbyemail.conf
+
+# ignore the .dat
+*.dat

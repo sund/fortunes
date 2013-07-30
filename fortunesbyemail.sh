@@ -74,6 +74,7 @@ cleanup() {
 		rm $tempNAME
 		rm -f $LCK_FILE
 	fi
+	unstringFiles
 }
 
 whichFortune() {
@@ -118,6 +119,7 @@ createfortune() {
 	cd $PDIR
 	for i in $fortunelist
 	do
+	  stringFiles $i
 		echo "Here is your $i fortune:" >> $tempNAME
 		$fortunePATH $i >> $tempNAME
 		echo -e "\n" >> $tempNAME
@@ -128,7 +130,17 @@ createfortune() {
 	echo "Now go and have a good day." >> $tempNAME
 	echo "This is script version $myVer." >> $tempNAME
 	echo "fortune - http://sund.la/fortune" >> $tempNAME
-    }
+}
+
+stringFiles() {
+	cd $PDIR
+	strfile $1 > /dev/null 2>&1
+}
+
+unstringFiles() {
+	cd $PDIR
+	rm -f *.dat
+}
 
 ###############################
 # WORK WORK WORK

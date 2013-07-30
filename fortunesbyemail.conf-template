@@ -11,6 +11,6 @@ mailSubject="Your fortune for today: `date +'%A %B %e %Y'`"
 # "address1@foo.com", "address2@foo.org"
 sendTO=( "" )
 #my favorites
-fortunelist="firefly community fortunes debian-hints bofh-excuses zippy startrek"
+fortunelist="firefly community gems fortunes debian-hints bofh-excuses zippy startrek"
 
 ################################
