@@ -128,7 +128,7 @@ createfortune() {
 	echo "It is day `date +%j` in week `date +%U` of the year `date +%G`." >> $tempNAME
 	echo "End of your fortunes for today. Enjoy." >> $tempNAME
 	echo "Now go and have a good day." >> $tempNAME
-	echo "This is script version $myVer." >> $tempNAME
+	echo "This is $0 version $(git describe --abbrev=0 --tags)." >> $tempNAME
 	echo "fortune - http://sund.la/fortune" >> $tempNAME
 }
 
